@@ -1,9 +1,12 @@
 import React, {Fragment} from 'react'
-
+import Header from './components/Header'
+import Characters from './components/Characters'
 const App = () => {
     return ( 
         <Fragment>
-            <h1>Hello Word jkhjkhjkjhk</h1>
+            <Header
+            title = "API Rick and Morty "/>
+            <Characters/>
         </Fragment>
      );
 }
